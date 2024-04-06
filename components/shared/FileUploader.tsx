@@ -4,7 +4,7 @@ import { generateClientDropzoneAccept } from 'uploadthing/client';
 import { Button } from '@/components/ui/button';
 import { convertFileToUrl } from '@/lib/utils';
 
-// Define the FileWithPath type locally
+
 interface FileWithPath extends File {
   path?: string;
 }
